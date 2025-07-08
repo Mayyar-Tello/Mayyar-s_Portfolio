@@ -1,5 +1,5 @@
-
-const HeroTitlesAndBtn = ({ title , description , btn , img , imgDesc }) => {
+import bgcolor from '../../assets/img/bgcolor.png'
+const HeroTitlesAndBtn = ({ title , description , btn , imgDesc }) => {
     return (
         <>
             <h1><span>HEY!</span> {title}</h1>
@@ -7,7 +7,7 @@ const HeroTitlesAndBtn = ({ title , description , btn , img , imgDesc }) => {
             <a href="/MYCV.pdf" download="MYCV">
                 <button>{btn}</button>
             </a>
-            <img src={img} alt={imgDesc} />
+            <img src={bgcolor} alt={imgDesc} />
         </>
     );
 };

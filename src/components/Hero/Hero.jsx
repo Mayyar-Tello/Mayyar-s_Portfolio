@@ -1,18 +1,18 @@
 import HeroImages from '../HeroImages/HeroImages'
 import HeroTitlesAndBtn from '../HeroTitlesAndBtn/HeroTitlesAndBtn'
 import './Hero.css'
+import lines from '../../assets/img/lines.png'
 
 const Hero = ({heroTitlesAndBtn , heroImages}) => {
     return (
         <div id="hero">
-            <img src="./src/assets/img/lines.png" alt="lines" className='lines' />
+            <img src={lines} alt="lines" className='lines' />
             {heroTitlesAndBtn?.map((item , index)=>(
                 <div key={index} className="heroTitlesAndBtn">
                     <HeroTitlesAndBtn
                         title={item.title}
                         description={item.description}
                         btn={item.btn}
-                        img={item.img}
                         imgDesc={item.imgDesc}
                     />
                 </div>

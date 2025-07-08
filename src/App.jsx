@@ -80,7 +80,6 @@ function App() {
       title : "I’m Mayyar, Frontend Developer",
       description : "Agency-quality Webflow websites with the personal touch of a freelancer.",
       btn : "Download Cv",
-      img : "./src/assets/img/bgColor.png",
       imgDesc : "lines"
     }
   ]
