@@ -21,10 +21,8 @@ const Hero = ({heroTitlesAndBtn , heroImages}) => {
                     {heroImages?.map((item , index)=>(
                         <div  className='sectionImage' key={index}>
                             <HeroImages
-                                circleImg={item.circleImg}
                                 circleImgDesc={item.circleImgDesc}
                                 personalImgDesc={item.personalImgDesc}
-                                squaresImg={item.squaresImg}
                                 squaresImgDesc={item.squaresImgDesc}
                             />
                         </div>

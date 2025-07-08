@@ -87,14 +87,12 @@ function App() {
 
   const heroImages = [
     {
-      circleImg : "./src/assets/img/circle.png",
       circleImgDesc : "circle"
     },
     {
       personalImgDesc : "personal"
     },
     {
-      squaresImg : "./src/assets/img/squares.png",
       squaresImgDesc : "squares"
     }
   ]
