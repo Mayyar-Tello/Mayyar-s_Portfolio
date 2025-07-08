@@ -1,0 +1,136 @@
+#contact{
+    padding: 0 70px 94px;
+    .contactTitles{
+        padding-bottom: 56px;
+        h2{
+            font-weight: 500;
+            font-size: 20px;
+            color: #0C96E2;
+        }
+        h1{
+            font-weight: 600;
+            font-size: 40px;
+            color: #1D2130;
+            span{
+                color: #0C96E2;
+            }
+        }
+    }
+    .contactContent{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+        .contactInfo{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            .cards{
+                padding-bottom: 48px;
+                display: flex;
+                gap: 20px;
+                button{
+                    padding: 16px 18px;
+                    border: none;
+                    border-radius: 8px;
+                    background-color: #0C96E2;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    svg{
+                        font-size: 20px;
+                        color: #FFFFFF;
+                    }
+                }
+                .info{
+                    h5 , p{
+                        font-size: 16px;
+                    }
+                    h5{
+                        font-weight: 400;
+                        color: #92929D;
+                    }
+                    p{
+                        font-weight: 500;
+                        color: #1D2130;
+                    }
+                }
+            }
+        }
+        .contactInputs{
+            .inputs{
+                max-width: 780px;
+                input{
+                    padding-left: 26px;
+                    border: 0.3px solid #BEC0BF;
+                    border-radius: 8px;
+                }
+                ::placeholder{
+                    color: #92929D;
+                }
+                .name{
+                    margin-right: 26px;
+                }
+                .name , .email{
+                    width: 48%;
+                    margin-bottom: 24px;
+                }
+                .name , .email , .phone{
+                    height: 56px;
+                }
+                .phone{
+                    margin-bottom: 24px;
+                }
+                .phone , .message{
+                    width: 100%;
+                }
+                .message{
+                    height: 170px;
+                }
+            }
+            button{
+                padding: 15px 50px;
+                margin-top: 20px;
+                border: none;
+                border-radius: 8px;
+                color: #FFFFFF;
+                background-color: #0C96E2;
+            }
+        }
+    }
+}
+
+@media(max-width:992px){
+    #contact{
+        min-width: 320px;
+        padding: 0 40px 47px;
+        .contactTitles{
+            text-align: center;
+            padding-bottom: 28px;
+        }
+        .contactContent{
+            flex-direction: column;
+            gap: 30px;
+            .contactInfo{
+                align-items: center;
+                .cards{
+                    padding-bottom: 24px;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                }
+            }
+            .contactInputs{
+                .inputs{
+                    .name , .email{
+                        width: 100%;
+                    }
+                    .message{
+                        height: 56px;
+                    }
+                }
+            }
+        }
+    }
+}

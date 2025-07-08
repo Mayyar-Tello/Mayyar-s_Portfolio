@@ -1,0 +1,87 @@
+nav {
+    width: 100%;
+    padding: 40px 70px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    h1{
+        font-weight: 600;
+        font-size: 24px;
+        color: #1D2130;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+        li{
+            a{
+                font-weight: 500;
+                font-size: 16px;
+                text-decoration: none;
+                color: #1D2130;
+                cursor: pointer;
+            }
+            .active{
+                color: #0C96E2;
+            }
+        }
+    }
+    .icons{
+        .moonIcon , .sunIcon , .barsIcon{
+            font-size: 25px;
+            cursor: pointer;
+        }
+        .sunIcon{
+            color: #ffffff;
+        }
+        .barsIcon{
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    nav {
+        padding: 30px 40px 0;
+        ul{
+            li{
+                display: none;
+            }
+        }
+        .popupOverlay {
+            width: 100vw;
+            height: 100vh;
+            background-color: #0C96E2;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .popupContent{
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    li{
+                        display: block;
+                        margin-bottom: 15px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .icons{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            .barsIcon{
+                display: block !important;
+            }
+        }
+    }
+}

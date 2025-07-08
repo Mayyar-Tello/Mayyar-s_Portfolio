@@ -1,0 +1,116 @@
+#projects {
+    padding: 94px 70px;
+}
+
+.projectsTitlesAndBtn {
+    padding-bottom: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titles {
+    max-width: 362px;
+}
+
+.titles h2 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #0C96E2;
+}
+
+.titles h1,
+.titles span {
+    font-weight: 600;
+    font-size: 38px;
+}
+
+.titles span {
+    color: #0C96E2;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    padding: 15px 18px;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #0C96E2;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+button svg {
+    font-size: 20px;
+}
+
+.projectCards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 58px;
+}
+
+.card {
+    max-width: 370px;
+    margin: auto;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h1,
+.card p {
+    color: #1D2130;
+}
+
+.card h1 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.card p {
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card p svg {
+    font-size: 25px;
+    color: #0C96E2;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    #projects {
+        min-width: 320px;
+        padding: 47px 40px;
+    }
+
+    .projectsTitlesAndBtn {
+        padding-bottom: 28px;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .projectCards {
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}

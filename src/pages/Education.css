@@ -1,0 +1,119 @@
+#education{
+    padding: 0 70px 0;
+    position: relative;
+    .educationTitles{
+        padding-bottom: 88px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h2{
+            padding-bottom: 8px;
+            font-weight: 500;
+            font-size: 20px;
+            color: #0C96E2;
+        }
+        h1{
+            font-weight: 600;
+            font-size: 40px;
+            color: #282938;
+        }
+    }
+    .educationContent{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 90px;
+        .firstViewContent , .secondViewContent{
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            img{
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+            .firstView , .secondView{
+                max-width: 498px;
+                padding: 0 54px 0 47px;
+                h3{
+                    padding-bottom: 14px;
+                    font-weight: 500;
+                    font-size: 25px;
+                    color: #344054;
+                }
+                p{
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #98A2B3;
+                }
+                .descStyle{
+                    padding-bottom: 46px;
+                }
+            }
+        }
+    }
+    .educationSideStyles{
+        img{
+            position: absolute;
+        }
+        .circlesAndSquaresFirstStyle{
+            top: 0;
+            right: 0;
+        }
+        .circlesAndSquaresSecondStyle{
+            bottom: -20%;
+            left: 0;
+        }
+    }
+    .scrollBtn{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        button{
+            margin-top: 36px;
+            padding: 8px 12px;
+            font-size: 20px;
+            border: none;
+            border-radius: 12px;
+            color: white;
+            background-color: #0C96E2;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@media(max-width:992px){
+    #education{
+        min-width: 320px;
+        padding: 0 40px 18px;
+        .educationTitles{
+            padding-bottom: 44px;
+            text-align: center;
+        }
+        .educationContent{
+            flex-direction: column;
+            gap: 46px;
+            .firstViewContent , .secondViewContent{
+                text-align: center;
+                .firstView , .secondView{
+                    padding: 0;
+                }
+                img{
+                    display: none;
+                }
+            }
+        }
+        .educationSideStyles{
+            img{
+                display: none;
+            }
+        }
+        .scrollBtn{
+            justify-content: center;
+        }
+    }
+}

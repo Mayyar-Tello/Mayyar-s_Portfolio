@@ -1,0 +1,119 @@
+#hero {
+    height: 100vh;
+    border-bottom: 2px dashed #1D2130;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    .lines {
+        width: 100%;
+        position: absolute;
+        bottom: 29px;
+        z-index: -2;
+    }
+    .heroTitlesAndBtn{
+        padding: 0 70px;
+        h1 , span{
+            font-size: 55px;
+            color: #1D2130;
+        }
+        h1{
+            max-width: 645px;
+            font-weight: 700;
+            span{
+                font-weight: 400;
+            }
+        }
+        p{
+            max-width: 370px;
+            padding: 8px 0 30px;
+            font-weight: 400;
+            font-size: 18px;
+            color: #43495B;
+        }
+        button{
+            padding: 12px 23px;
+            border: none;
+            border-radius: 6px;
+            color: #1D2130;
+            background-color: #FFFFFF99;
+            cursor: pointer;
+        }
+        img{
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+        }
+    }
+    .heroImg{
+        height: 100vh;
+        .sectionImage{
+            position: relative;
+            z-index: -1;
+            .circleImg{
+                position: absolute;
+                right: 70px;
+                top: 186px;
+            }
+            .personalImg{
+                max-width: 500px;
+                position: absolute;
+                right: 75px;
+                top: 40px;
+            }
+            .squaresImg{
+                position: absolute;
+                right: 70px;
+                top: 150px;
+            }
+        }
+    }
+}
+
+@media(max-width : 992px){
+    #hero{
+        min-width: 320px;
+        justify-content: center;
+        flex-direction: column-reverse;
+        .lines{
+            display: none;
+        }
+        .heroTitlesAndBtn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 0 40px 30px;
+            h1 , span{
+                font-size: 25px;
+            }
+            p{
+                padding: 8px 0 10px;
+            }
+            img{
+                display: none;
+            }
+        }
+        .heroImg {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            .sectionImage {
+                position: relative;
+                .circleImg , .squaresImg{
+                    width: 250px;
+                    top: 0;
+                    left: 50%;
+                    transform: translate(-50%, 50%);
+                }
+                .personalImg{
+                    width: 300px;
+                    top: 50px;
+                    transform: translateX(66%);
+                }
+            }
+        }
+    }
+}

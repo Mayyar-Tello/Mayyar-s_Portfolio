@@ -1,0 +1,157 @@
+.darkMode{
+    position: absolute;
+    z-index: -1000;
+    background-color: #1B2431;
+    width: 100%;
+    nav{
+        h1{
+            color: #FFFFFF;
+        }
+        ul{
+            li{
+                a{
+                    color: #FFFFFF;
+                }
+            }
+        }
+        .icons{
+            .barsIcon{
+                color: #FFFFFF;
+            }
+        }
+    }
+    #hero{
+        border-color: #FFFFFF;
+        .heroTitlesAndBtn{
+            h1 , span , p , button{
+                color: #FFFFFF;
+            }
+            button{
+                background-color: #0C96E299;
+            }
+        }
+    }
+    #about{
+        .aboutTitlesAndPhotos{
+            .aboutTitles{
+                h1 , p{
+                    color: #FFFFFF;
+                }
+            }
+            .aboutProgress{
+                .firstExperience , .secondExperience , .thirdExperience , .fourthExperience{
+                    h2{
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+    #education{
+        .educationTitles{
+            h1{
+                color: #FFFFFF;
+            }
+        }
+        .educationContent{
+            .firstViewContent{
+                .firstView{
+                    h3{
+                        color: #FFFFFF;
+                    }
+                }
+            }
+            .secondViewContent{
+                .secondView{
+                    h3{
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+    #projects{
+        .projectsTitlesAndBtn{
+            .titles{
+                h1{
+                    color: #FFFFFF;
+                }
+            }
+        }
+        .projectCards{
+            .card{
+                h1 , p{
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+    #contact{
+        .contactTitles{
+            h1{
+                color: #FFFFFF;
+            }
+        }
+        .contactContent{
+            .contactInfo{
+                .cards{
+                    .info{
+                        p{
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+            .contactInputs{
+                .inputs{
+                    input{
+                        color: #FFFFFF;
+                        background-color: #1B2431;
+                    }
+                }
+            }
+        }
+    }
+    #footer{
+        .footerContent{
+            p{
+                color: #FFFFFF;
+            }
+        }
+    }
+    .contentOfOpenProject{
+        .container{
+            .info{
+                .titleAndLink{
+                    h2{
+                        color: #ffffff;
+                    }
+                }
+                p{
+                    color: #FFFFFF;
+                }
+                ul{
+                    li{
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+    .otherProject{
+        .container{
+            .title{
+                .mainTitle{
+                    h2{
+                        color: #FFFFFF;
+                    }
+                }
+            }
+            .projects{
+                h1 , p{
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}

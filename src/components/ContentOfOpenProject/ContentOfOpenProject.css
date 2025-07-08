@@ -1,0 +1,126 @@
+.contentOfOpenProject{
+    padding: 170px 70px 79px;
+    border-bottom: 2px dashed #1D2130;
+    position: relative;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 45px;
+        .image{
+            max-width: 600px;
+            position: relative;
+            img{
+                min-width: 100%;
+                border-radius: 8px;
+                object-fit: cover;
+            }
+            .full{
+                width: 100vw;
+                height: 100vh;
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 100;
+            }
+            .controller{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                background: rgba(0, 0, 0, 0.512);
+                top: 0;
+                left: 0;
+                opacity: 0;
+                transition-duration: 0.5s;
+                ul{
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+                    font-size: 40px;
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: #ffffff;
+                    }
+                    li{
+                        cursor: pointer;
+                    }
+                }
+            }
+            .controller:hover{
+                opacity:0.5
+            }
+        }
+        .info{
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-direction: column;
+            .titleAndLink{
+                padding-bottom: 36px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                h2{
+                    font-weight: 600;
+                    font-size: 28px;
+                    color: #1D2130;
+                }
+                a{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    svg{
+                        font-size: 20px;
+                        color: #0C96E2;
+                    }
+                }
+            }
+            p{
+                padding-bottom: 17px;
+                font-weight: 400;
+                font-size: 18px;
+                color: #1D2130;
+            }
+            ul{
+                padding-bottom: 18px;
+                list-style: none;
+                li{
+                    padding-bottom: 11px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #1D2130;
+                    span{
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:997px){
+    .contentOfOpenProject{
+        min-width: 320px;
+        padding: 120px 40px 39px;
+        .container{
+            justify-content: center;
+            flex-direction: column;
+            .image{
+                img{
+                    width: 100%;
+                }
+            }
+            .info{
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+        }
+    } 
+}

@@ -1,0 +1,84 @@
+.tryMe{
+    padding: 79px 92px 0;
+    .tryMeContent{
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .tryMeTitlesAndBtn{
+            width: 100%;
+            padding: 0;
+            position: absolute;
+            top: 30%;
+            left: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: baseline;
+            .titles{
+                max-width: 589px;
+                h1 , span{
+                    color: #FFFFFF;
+                }
+                h1{
+                    padding-bottom: 9px;
+                    font-weight: 600;
+                    font-size: 48px;
+                }
+                span{
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+                .questionDesc{
+                    font-weight: 700;
+                }
+            }
+            a{
+                text-decoration: none;
+                button{
+                    padding: 12px 30px;
+                    font-weight: 600;
+                    font-size: 14px;
+                    border: none;
+                    border-radius: 6px;
+                    color: #FFFFFF;
+                    background-color: #0C96E2;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 12px;
+                    svg{
+                        font-size: large;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width : 992px){
+    .tryMe{
+        min-width: 320px;
+        height: 100vh;
+        background-image: url(../assets/img/tryMeImg.png);
+        background-size: cover;
+        background-position: center;
+        .tryMeContent{
+            img{
+                display: none;
+            }
+            .tryMeTitlesAndBtn{
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 30px;
+                .titles{
+                    h1{
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
