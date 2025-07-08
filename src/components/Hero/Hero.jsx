@@ -23,7 +23,6 @@ const Hero = ({heroTitlesAndBtn , heroImages}) => {
                             <HeroImages
                                 circleImg={item.circleImg}
                                 circleImgDesc={item.circleImgDesc}
-                                personalImg={item.personalImg}
                                 personalImgDesc={item.personalImgDesc}
                                 squaresImg={item.squaresImg}
                                 squaresImgDesc={item.squaresImgDesc}

@@ -91,7 +91,6 @@ function App() {
       circleImgDesc : "circle"
     },
     {
-      personalImg : "./src/assets/img/personalPhoto.png",
       personalImgDesc : "personal"
     },
     {
