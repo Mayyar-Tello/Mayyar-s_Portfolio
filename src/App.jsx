@@ -12,14 +12,14 @@ import { GrLocation } from 'react-icons/gr'
 import Footer from './pages/Footer'
 import OpenProject from './pages/OpenProject'
 import { useEffect } from 'react'
-import educationImgDarkMode from './assets/img/educationImgDarkMode.png';
-import educationImg from './assets/img/educationImg.png';
-import educationalPlatform1 from './assets/img/educationalPlatform1.png';
-import dashboardProject from './assets/img/dashboardProject.png';
-import managePostsProject from './assets/img/managePostsProject.png';
-import trainersBuyProject from './assets/img/trainersBuyProject.png';
-import miniJSProject from './assets/img/miniJSProject.png';
-import educationalPlatform2 from './assets/img/educationalPlatform2.png';
+import educationImgDarkMode from '../src/assets/img/educationImgDarkMode.png';
+import educationImg from '../src/assets/img/educationImg.png';
+import educationalPlatform1 from '../src/assets/img/educationalPlatform1.png';
+import dashboardProject from '../src/assets/img/dashboardProject.png';
+import managePostsProject from '../src/assets/img/managePostsProject.png';
+import trainersBuyProject from '../src/assets/img/trainersBuyProject.png';
+import miniJSProject from '../src/assets/img/miniJSProject.png';
+import educationalPlatform2 from '../src/assets/img/educationalPlatform2.png';
 
 function App() {
 
