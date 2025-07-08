@@ -12,6 +12,14 @@ import { GrLocation } from 'react-icons/gr'
 import Footer from './pages/Footer'
 import OpenProject from './pages/OpenProject'
 import { useEffect } from 'react'
+import educationImgDarkMode from './assets/img/educationImgDarkMode.png';
+import educationImg from './assets/img/educationImg.png';
+import educationalPlatform1 from 'assets/img/educationalPlatform1.png';
+import dashboardProject from 'assets/img/dashboardProject.png';
+import managePostsProject from 'assets/img/managePostsProject.png';
+import trainersBuyProject from 'assets/img/trainersBuyProject.png';
+import miniJSProject from 'assets/img/miniJSProject.png';
+import educationalPlatform2 from 'assets/img/educationalPlatform2.png';
 
 function App() {
 
@@ -128,8 +136,8 @@ function App() {
   const educationContent = [
     {
       myEducationImg : darkMode
-      ?"./src/assets/img/educationImgDarkMode.png"
-      :"./src/assets/img/educationImg.png",
+      ?{educationImgDarkMode}
+      :{educationImg},
       firstEducationTitle : "Computer Engineering",
       firstEducationDesc : "Automating assembly lines, quality checks, and production processes and Designing autonomous robots.",
       firstExperienceTitle : "Frontend Developer",
@@ -143,13 +151,12 @@ function App() {
 
   const educationSideStyles = [
     {
-      
+
     }
   ]
   
   const tryMetitlesAndBtn = [
     {
-      tryMeImg : "./src/assets/img/tryMeImg.png",
       mainTitle : "Try me out, risk free!",
       desc : "If you’re not happy with the design after the first draft, I’ll refund your deposit, ",
       questionsDesc : "no questions asked",
@@ -171,7 +178,7 @@ function App() {
   const projectsCards = [
     {
       id : "1",
-      projectImg : "./src/assets/img/educationalPlatform1.png",
+      projectImg : {educationalPlatform1},
       title : "Educational Platform",
       desc : "Html-Css3-Vanilla javscript-React",
       icon : <LuCircleArrowOutUpRight />,
@@ -179,7 +186,7 @@ function App() {
     },
     {
       id : "2",
-      projectImg : "./src/assets/img/dashboardProject.png",
+      projectImg : {dashboardProject},
       title : "Products Manage",
       desc : "Html-Css3-Vanilla javscript-React",
       icon : <LuCircleArrowOutUpRight />,
@@ -187,7 +194,7 @@ function App() {
     },
     {
       id : "3",
-      projectImg : "./src/assets/img/managePostsProject.png",
+      projectImg : {managePostsProject},
       title : "Posts Manage",
       desc : "Html-Css3-Vanilla javscript",
       icon : <LuCircleArrowOutUpRight />,
@@ -195,7 +202,7 @@ function App() {
     },
     {
       id : "4",
-      projectImg : "./src/assets/img/trainersBuyProject.png",
+      projectImg : {trainersBuyProject},
       title : "Trainers Buy",
       desc : "Html-Css3-Vanilla javscript",
       icon : <LuCircleArrowOutUpRight />,
@@ -203,7 +210,7 @@ function App() {
     },
     {
       id : "5",
-      projectImg : "./src/assets/img/miniJSProject.png",
+      projectImg : {miniJSProject},
       title : "Demo JS Project",
       desc : "Html-Css3-Vanilla javscript",
       icon : <LuCircleArrowOutUpRight />,
@@ -211,7 +218,7 @@ function App() {
     },
     {
       id : "6",
-      projectImg : "./src/assets/img/educationalPlatform2.png",
+      projectImg : {educationalPlatform2},
       title : "Educational Platform",
       desc : "Html-Css3",
       icon : <LuCircleArrowOutUpRight />,

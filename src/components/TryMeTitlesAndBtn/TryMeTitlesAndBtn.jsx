@@ -1,5 +1,6 @@
+import tryMeImg from '../../assets/img/tryMeImg.png';
 
-const TryMeTitlesAndBtn = ({tryMeImg , mainTitle , desc , questionsDesc , btn , btnIcon}) => {
+const TryMeTitlesAndBtn = ({mainTitle , desc , questionsDesc , btn , btnIcon}) => {
     return (
         <>
             <div className="tryMeContent">
