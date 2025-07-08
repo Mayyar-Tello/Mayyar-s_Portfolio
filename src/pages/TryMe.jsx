@@ -1,5 +1,5 @@
 import TryMeTitlesAndBtn from '../components/TryMeTitlesAndBtn/TryMeTitlesAndBtn'
-import './TryME.css'
+import './TryMe.css'
 
 const TryMe = ({tryMetitlesAndBtn}) => {
     return (
