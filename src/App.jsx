@@ -143,8 +143,7 @@ function App() {
 
   const educationSideStyles = [
     {
-      circlesAndSquaresFirstStyle : "./src/assets/img/educationCirclesAndSquaresFirstStyle.png",
-      circlesAndSquaresSecondStyle : "./src/assets/img/educationCirclesAndSquaresSecondStyle.png"
+      
     }
   ]
   

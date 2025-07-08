@@ -1,9 +1,11 @@
+import educationCirclesAndSquaresFirstStyle from '../../assets/img/educationCirclesAndSquaresFirstStyle.png';
+import educationCirclesAndSquaresSecondStyle from '../../assets/img/educationCirclesAndSquaresSecondStyle.png';
 
-const EducationSideStyles = ({circlesAndSquaresFirstStyle , circlesAndSquaresSecondStyle}) => {
+const EducationSideStyles = ({}) => {
     return (
         <>
-            <img src={circlesAndSquaresFirstStyle} className="circlesAndSquaresFirstStyle"/>
-            <img src={circlesAndSquaresSecondStyle} className="circlesAndSquaresSecondStyle"/>
+            <img src={educationCirclesAndSquaresFirstStyle} className="circlesAndSquaresFirstStyle"/>
+            <img src={educationCirclesAndSquaresSecondStyle} className="circlesAndSquaresSecondStyle"/>
         </>
     )
 }
