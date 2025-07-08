@@ -136,8 +136,8 @@ function App() {
   const educationContent = [
     {
       myEducationImg : darkMode
-      ?{educationImgDarkMode}
-      :{educationImg},
+      ?educationImgDarkMode
+      :educationImg,
       firstEducationTitle : "Computer Engineering",
       firstEducationDesc : "Automating assembly lines, quality checks, and production processes and Designing autonomous robots.",
       firstExperienceTitle : "Frontend Developer",
@@ -178,7 +178,7 @@ function App() {
   const projectsCards = [
     {
       id : "1",
-      projectImg : {educationalPlatform1},
+      projectImg : educationalPlatform1,
       title : "Educational Platform",
       desc : "Html-Css3-Vanilla javscript-React",
       icon : <LuCircleArrowOutUpRight />,
@@ -186,7 +186,7 @@ function App() {
     },
     {
       id : "2",
-      projectImg : {dashboardProject},
+      projectImg : dashboardProject,
       title : "Products Manage",
       desc : "Html-Css3-Vanilla javscript-React",
       icon : <LuCircleArrowOutUpRight />,
@@ -194,7 +194,7 @@ function App() {
     },
     {
       id : "3",
-      projectImg : {managePostsProject},
+      projectImg : managePostsProject,
       title : "Posts Manage",
       desc : "Html-Css3-Vanilla javscript",
       icon : <LuCircleArrowOutUpRight />,
@@ -202,7 +202,7 @@ function App() {
     },
     {
       id : "4",
-      projectImg : {trainersBuyProject},
+      projectImg : trainersBuyProject,
       title : "Trainers Buy",
       desc : "Html-Css3-Vanilla javscript",
       icon : <LuCircleArrowOutUpRight />,
@@ -210,7 +210,7 @@ function App() {
     },
     {
       id : "5",
-      projectImg : {miniJSProject},
+      projectImg : miniJSProject,
       title : "Demo JS Project",
       desc : "Html-Css3-Vanilla javscript",
       icon : <LuCircleArrowOutUpRight />,
@@ -218,7 +218,7 @@ function App() {
     },
     {
       id : "6",
-      projectImg : {educationalPlatform2},
+      projectImg : educationalPlatform2,
       title : "Educational Platform",
       desc : "Html-Css3",
       icon : <LuCircleArrowOutUpRight />,
