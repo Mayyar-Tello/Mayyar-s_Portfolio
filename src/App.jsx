@@ -98,7 +98,6 @@ function App() {
 
   const aboutSideImg = [
     {
-      sideImgLink : "./src/assets/img/experiences.png",
       sideImgDesc : "myExperiences"
     }
   ]
@@ -113,19 +112,9 @@ function App() {
   const aboutProgress = [
     {
       firstExperienceTitle : "HTML5",
-      firstExperienceSecondColor : "./src/assets/img/HTML5AndReactBlueStyle.png",
-      firstExperiencePrecentage : "./src/assets/img/HTML5AndReactPrecentage.png",
       secondExperienceTitle : "CSS3",
-      secondExperienceSecondColor : "./src/assets/img/CSS3BlueStyle.png",
-      secondExperiencePrecentage : "./src/assets/img/CSS3Precentage.png",
       thirdExperienceTitle : "Javascript",
-      thirdExperienceSecondColor : "./src/assets/img/JavascriptBlueStyle.png",
-      thirdExperiencePrecentage : "./src/assets/img/JavascriptPrecentage.png",
-      fourthExperienceTitle : "React",
-      fourthExperienceSecondColor : "./src/assets/img/HTML5AndReactBlueStyle.png",
-      fourthExperiencePrecentage : "./src/assets/img/HTML5AndReactPrecentage.png",
-      ExperienceFirstColor : "./src/assets/img/greyProgressStyle.png",
-      ExperiencePrecentageCircle : "./src/assets/img/precentageCircle.png"
+      fourthExperienceTitle : "React"
     }
   ]
 

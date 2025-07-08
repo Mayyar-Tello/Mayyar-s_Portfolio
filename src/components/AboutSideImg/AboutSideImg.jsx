@@ -1,8 +1,9 @@
+import experiences from '../../assets/img/experiences.png';
 
-const AboutSideImg = ({sideImgLink , sideImgDesc}) => {
+const AboutSideImg = ({sideImgDesc}) => {
     return (
         <>
-            <img src={sideImgLink} alt={sideImgDesc} className='aboutSideImg'/>
+            <img src={experiences} alt={sideImgDesc} className='aboutSideImg'/>
         </>
     )
 }
